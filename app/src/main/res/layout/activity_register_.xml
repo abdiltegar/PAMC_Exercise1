@@ -240,8 +240,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rbAgmProtestan"
-        app:layout_constraintVertical_bias="0.02"
-        app:passwordToggleEnabled="true">
+        app:layout_constraintVertical_bias="0.02">
 
         <EditText
             android:id="@+id/etEmailRegister"
@@ -293,7 +292,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout6"
-        app:layout_constraintVertical_bias="0.05">
+        app:layout_constraintVertical_bias="0.05"
+        app:passwordToggleEnabled="true">
 
         <EditText
             android:id="@+id/etRePasswordRegister"
